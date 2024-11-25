@@ -5,20 +5,17 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column; /* Organizza il layout verticale */
-    min-height: 100vh; /* Altezza minima pari all'altezza della finestra */
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 60px;
+    box-sizing: border-box;
 }
 
 .container {
     text-align: center;
     max-width: 600px;
     margin: auto;
-    flex: 1; /* Spinge il footer verso il fondo */
     padding: 20px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 main {
@@ -39,13 +36,16 @@ main p {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     font-size: 20px;
     color: #555;
-    margin-top: auto;
     padding: 1rem;
-    background-color: #f8f8f8; /* o il colore che preferisci */
-    flex-shrink: 0; /* Impedisce al footer di restringersi */
+    background-color: ivory;
+    height: 40px;
 }
 
 /* Stile generale per i link */
