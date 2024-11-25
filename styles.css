@@ -1,0 +1,64 @@
+/* Stile generale */
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Organizza il layout verticale */
+    min-height: 100vh; /* Altezza minima pari all'altezza della finestra */
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    flex: 1; /* Spinge il footer verso il fondo */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 700; /* Bold per h1 */
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #fff8f0;
+    flex-shrink: 0; /* Impedisce al footer di restringersi */
+}
+
+/* Stile generale per i link */
+a {
+    color: #007BFF; /* Colore predefinito dei link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+/* Stile quando il link viene cliccato o è attivo */
+a:visited {
+    color: #5a5a5a; /* Colore per i link già visitati */
+}
+
+/* Stile quando il mouse passa sopra il link */
+a:hover {
+    color: #0088ff; /* Colore quando il link è "hoverato" */
+    text-decoration: underline; /* Mostra la sottolineatura al passaggio del mouse */
+}
+
+/* Stile per quando un link è attivo (cliccato) */
+a:active {
+    color: #004cff; /* Colore mentre il link è cliccato */
+}
