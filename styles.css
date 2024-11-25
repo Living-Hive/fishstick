@@ -1,7 +1,7 @@
 /* Stile generale */
 body {
     font-family: 'EB Garamond', serif;
-    background-color: #fff8f0;
+    background-color: ivory;
     color: #333;
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ footer {
     color: #555;
     margin-top: 20px;
     padding: 10px 0;
-    background-color: #fff8f0;
+    background-color: ivory;
     flex-shrink: 0; /* Impedisce al footer di restringersi */
 }
 
