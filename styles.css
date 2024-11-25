@@ -70,3 +70,7 @@ a:hover {
 a:active {
     color: #004cff; /* Colore mentre il link è cliccato */
 }
+
+.back-link {
+    margin-top: 2rem;
+}
