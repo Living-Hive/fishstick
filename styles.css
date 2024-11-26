@@ -7,7 +7,7 @@ body {
     padding: 0;
     min-height: 100dvh;
     position: relative;
-    padding-bottom: calc(60px + env(safe-area-inset-bottom));
+    padding-bottom: calc(100px + env(safe-area-inset-bottom));
     box-sizing: border-box;
 }
 
@@ -73,4 +73,5 @@ a:active {
 
 .back-link {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
